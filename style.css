@@ -16,30 +16,31 @@ body {
     font-weight: 400;
     font-size: 0.75rem;
     -webkit-font-smoothing: antialiased;
-    background: var(--color1);
+    background-color: var(--color5);
+    display: flex;
+    justify-content: center;
+
 }
 
 .container {
-    height: 100vh;
     max-width: 80vw;
-    width: 100%;
+    width: 26.875rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    border: 1px solid red;
+    background: var(--color1);
 }
 
 .banenerMain {
     background: var(--color3);
     color: var(--color1);
-    width: 26.875rem;
+    width: 100%;
     height: 4.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 2rem;
 }
 
 .banenerMain h1 {
@@ -60,38 +61,44 @@ body {
 }
 
 .form {
-    width: 26.875rem;
+    width: 100%;
     height: 9.125rem;
     padding-left: 5.188rem;
     padding-right: 5.188rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: ; */
-
-    border: 1px solid yellow;
 }
 
 .form input {
-    margin-top: 0.25rem;
-    width: 14rem;
+    background: var(--color5);
+    color: var(--color6);
     border-radius: 3px;
     border: 1px solid var(--color6);
+    margin-top: 0.25rem;
+    width: 14rem;
+    padding: 0.375rem 0 0.375rem 0.625rem;
 }
 
 .form button {
+    background: var(--color4);
+    color: var(--color1);
+    border-radius: 3px;
+    border: transparent;
+    font-weight: bold;
     margin-top: 1rem;
     width: 14rem;
+    padding: 0.375rem 0 0.375rem 0.625rem;
 }
 
 .userData {
-    width: 26.875rem;
+    width: 100%;
     height: 12.625rem;
     border: 1px solid blue;
 }
 
 .repositoryData {
-    width: 26.875rem;
+    width: 100%;
     height: 22rem;
     border: 1px solid red;
 }
@@ -102,7 +109,7 @@ body {
 }
 
 .footerContainer {
-    width: 26.875rem;
+    width: 100%;
     height: 7.188rem;
     border: 1px solid pink;
 }
