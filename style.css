@@ -25,15 +25,71 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+
+.banenerMain {
+    background: var(--color3);
+    color: var(--color1);
+    width: 26.875rem;
+    height: 4.75rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 2rem;
+}
+
+.banenerMain h1 {
+    font-size: 0.75rem;
+    width: 14rem;
+    height: 4rem;
+    padding-top: 1.75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banenerMain img {
+    width: 35%;
+    height: 35%;
+    margin-top: -0.25rem;
+}
+
+.form {
+    width: 26.875rem;
+    height: 9.125rem;
+    border: 1px solid yellow;
+}
+
+.userData {
+    width: 26.875rem;
+    height: 12.625rem;
+    border: 1px solid blue;
+}
+
+.repositoryData {
+    width: 26.875rem;
+    height: 22rem;
+    border: 1px solid red;
+}
+
+.repositoryData img {
+    width: 10%;
+    height: 10%;
 }
 
 .footerContainer {
     width: 26.875rem;
+    height: 7.188rem;
+    border: 1px solid pink;
 }
 
 .bannerPurple {
+    background: var(--color3);
     width: 14.563rem;
     height: 1.5rem;
 }
@@ -49,7 +105,7 @@ body {
     padding-right: 2.5rem;
 }
 
-img {
+.bannerGray img {
     object-fit: cover;
     width: 100%;
     height: 100%;
