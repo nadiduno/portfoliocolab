@@ -10,11 +10,11 @@ body {
     --color3: #3D265E;
     --color4: #E84F30;
     --color5: #1f1f1f;
-    --color5: #E0E0E0;
+    --color6: #E0E0E0;
 
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 0.75rem;
     -webkit-font-smoothing: antialiased;
     background: var(--color1);
 }
@@ -62,7 +62,26 @@ body {
 .form {
     width: 26.875rem;
     height: 9.125rem;
+    padding-left: 5.188rem;
+    padding-right: 5.188rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: ; */
+
     border: 1px solid yellow;
+}
+
+.form input {
+    margin-top: 0.25rem;
+    width: 14rem;
+    border-radius: 3px;
+    border: 1px solid var(--color6);
+}
+
+.form button {
+    margin-top: 1rem;
+    width: 14rem;
 }
 
 .userData {
