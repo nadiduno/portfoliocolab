@@ -9,8 +9,14 @@ https://api.github.com/users/<nomeUsuario>
 
 
 # Mobile
-
-[Mobile](https://github.com/nadiduno/portfoliocolab/blob/main/.github/ImgApp.png)
+<div>
+  <img 
+    alt="Timer Pomodoro"
+    src="https://github.com/nadiduno/portfoliocolab/blob/main/.github/ImgApp.png" 
+    width="60%"
+  >
+  <br />
+</div>
 
 
 # Design
