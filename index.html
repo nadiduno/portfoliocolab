@@ -1,18 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Github API</title>
-    
-<body>
 
-    <h1>GitHub</h1>
-    <input type="text" placeholder="Coloque seu ID do Github" id="UserId">
-    <button onclick="UserData()">Clica aquí</button>
-    <h2 id="Username"></h2>
-    <img id="AvatarUser"/>
-    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <title>GitHub API</title>
+    <link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="container">
+        <div class="banenerMain">
+            <h1> Criamos un mini portfólio para você, usando seus dados de GitHub</h1>
+            <img src="./assets/mathForms.svg" alt="">
+        </div>
+
+        <div class="form">
+            <p>Usuário de GitHub</p>
+            <input id="userId" type="text" placeholder="Digite seu usuário">
+            <!-- <div onclick="UserData()">Buscar meus dados</div> -->
+            <button onclick="userData()">Buscar meus dados</button>
+        </div>
+
+        <div class="userData">
+            <img id="userAvatar" />
+            <p id="userName"></p>
+            <p id="userBio"></p>
+        </div>
+
+        <div class="repositoryData">
+            <div class="bannerOrange">
+                <h2>Dados de minha conta em GitHub</h2>
+            </div>
+            <div clas="numbergutHub">
+                <div class="computer">
+                    <img class="" src="./assets/computer.svg" alt="">
+                    <p class="number" id="publicRepos">0</p>
+                    <p>Repositórios</p>
+                </div>
+                <div class="computer">
+                    <img class="" src="./assets/computer.svg" alt="">
+                    <p class="number" id="followers">0</p>
+                    <p>Repositórios</p>
+                </div>
+                <div class="computer">
+                    <img class="" src="./assets/computer.svg" alt="">
+                    <p class="number" id="following">0</p>
+                    <p>Repositórios</p>
+                </div>
+            </div>
+            <div class="gitHubAccount">
+                <img src="./assets/githubOctocatFlat.svg" alt="">
+                <a id="htmlUrl">Visitar meu GitHub</a>
+                <p id="menssage"></p>
+                <p id="createdAt"></p>
+            </div>
+        </div>
+        <div class="footerContainer">
+            <div class="bannerPurple">
+                <p>Tecnologias implementadas</p>
+            </div>
+            <div class="bannerGray">
+                <img src="./assets/logoHtml.svg" alt="">
+                <img src="./assets/logoCss.svg" alt="">
+                <img src="./assets/logoJavascript.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
-<script src="app.js"></script>
+
 </html>
