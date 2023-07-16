@@ -13,7 +13,7 @@ https://api.github.com/users/<nomeUsuario>
   <img 
     alt="Timer Pomodoro"
     src="https://github.com/nadiduno/portfoliocolab/blob/main/.github/ImgApp.png" 
-    width="60%"
+    width="30%"
   >
   <br />
 </div>
