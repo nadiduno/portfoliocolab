@@ -258,3 +258,30 @@ body {
 .link2:hover {
     opacity: .7;
 }
+
+@media screen and (min-width: 769px) {
+    body {
+        font-size: 1rem;
+    }
+
+    .container {
+        min-width: 80vw;
+    }
+
+    .banenerMain h1 {
+        width: 100%;
+    }
+
+    .bannerOrange {
+        width: 45%;
+    }
+
+    .bannerPurple {
+        width: 19rem;
+    }
+
+    .bannerGray {
+        width: 19rem;
+    }
+
+}
