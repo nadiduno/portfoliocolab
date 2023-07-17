@@ -22,19 +22,18 @@
         <div class="form">
             <p>Usuário de GitHub</p>
             <input id="userId" type="text" placeholder="Digite seu usuário">
-            <!-- <div onclick="UserData()">Buscar meus dados</div> -->
             <button onclick="userData()">Buscar meus dados</button>
         </div>
 
         <div class="userData">
-            <img id="userAvatar" />
-            <p id="userName"></p>
-            <p id="userBio"></p>
+            <img class="avatar" id="userAvatar" src="./assets/avatar.svg" />
+            <p class="name" id="userName">Nome</p>
+            <p class="bio" id="userBio">Biografia</p>
         </div>
 
         <div class="repositoryData">
             <div class="bannerOrange">
-                <h2>Dados de minha conta em GitHub</h2>
+                <p>Dados de minha conta em GitHub</>
             </div>
             <div clas="numbergutHub">
                 <div class="computer">
@@ -42,15 +41,17 @@
                     <p class="number" id="publicRepos">0</p>
                     <p>Repositórios</p>
                 </div>
+            </div>
+            <div clas="numbergutHub">
                 <div class="computer">
                     <img class="" src="./assets/computer.svg" alt="">
                     <p class="number" id="followers">0</p>
-                    <p>Repositórios</p>
+                    <p>Seguidores</p>
                 </div>
                 <div class="computer">
                     <img class="" src="./assets/computer.svg" alt="">
                     <p class="number" id="following">0</p>
-                    <p>Repositórios</p>
+                    <p>Seguindo</p>
                 </div>
             </div>
             <div class="gitHubAccount">
