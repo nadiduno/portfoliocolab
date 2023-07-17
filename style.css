@@ -36,7 +36,7 @@ body {
     background: var(--color3);
     color: var(--color1);
     width: 100%;
-    height: 4.75rem;
+    height: 4.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,8 +45,8 @@ body {
 
 .banenerMain h1 {
     font-size: 0.75rem;
-    width: 14rem;
-    height: 4rem;
+    width: 95%;
+    height: 3rem;
     padding-top: 1.75rem;
     display: flex;
     justify-content: center;
@@ -57,18 +57,25 @@ body {
 .banenerMain img {
     width: 35%;
     height: 35%;
-    margin-top: -0.25rem;
+    margin-top: .75rem;
 }
 
 .form {
     width: 100%;
     height: 9.125rem;
-    padding-left: 5.188rem;
-    padding-right: 5.188rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.labelForm {
+    width: 80%;
+    max-width: 14rem;
+    font-size: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
 .form input {
@@ -76,8 +83,9 @@ body {
     color: var(--color6);
     border-radius: 3px;
     border: 1px solid var(--color6);
-    margin-top: 0.25rem;
-    width: 14rem;
+    margin-top: .25rem;
+    width: 80%;
+    max-width: 14rem;
     padding: 0.375rem 0 0.375rem 0.625rem;
 }
 
@@ -88,7 +96,8 @@ body {
     border: transparent;
     font-weight: bold;
     margin-top: 1rem;
-    width: 14rem;
+    width: 80%;
+    max-width: 14rem;
     padding: 0.375rem 0 0.375rem 0.625rem;
     cursor: pointer;
     opacity: 1;
@@ -102,11 +111,11 @@ body {
 .userData {
     width: 100%;
     height: 12.625rem;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: center;
+    overflow: hidden;
 }
 
 .avatar {
@@ -146,7 +155,7 @@ body {
 .bannerOrange {
     background: var(--color4);
     color: var(--color1);
-    width: 50%;
+    width: 90%;
     padding: .25rem 0;
     margin: .75rem;
 }
@@ -156,11 +165,14 @@ body {
 }
 
 .numbergutHub1 {
+    width: 90%;
     margin-top: -1rem;
+    margin-left: .75rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10rem;
+    position: relative;
+    z-index: 1;
 }
 
 .computer {
@@ -169,12 +181,14 @@ body {
     position: relative;
 }
 
+
 .number {
     position: absolute;
     margin-top: -3.5rem;
     margin-left: 30%;
     font-size: 1.875rem;
 }
+
 
 .gitHubAccount {
     width: 100%;
@@ -212,40 +226,43 @@ body {
 .footerContainer {
     color: var(--color1);
     width: 100%;
-    height: 7.188rem;
     text-align: center;
-    font-size: .75rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: .5rem;
+    display: grid;
+    column-gap: 50%;
     gap: .25rem;
+    margin-bottom: .5rem;
 }
 
 .bannerPurple {
     background: var(--color3);
-    width: 12rem;
-    height: 1.5rem;
+    width: 100%;
+    height: 1rem;
     padding: .25rem;
-    border-radius: 0.5rem 0.5rem 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bannerGray {
     background: var(--color6);
-    width: 12rem;
-    height: 3.813rem;
+    width: 100%;
+    height: 3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .logoTech {
-    width: 1.766rem;
-    height: 2.016rem;
+    width: 28.26px;
+    max-width: 32.26px;
 }
 
 .logoColab {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 30px;
+    max-width: 30px;
+    height: 60%;
+    max-height: 2.5rem;
     border-radius: 50%;
 }
 
@@ -272,10 +289,6 @@ body {
         width: 100%;
     }
 
-    .bannerOrange {
-        width: 45%;
-    }
-
     .bannerPurple {
         width: 19rem;
     }
@@ -284,4 +297,14 @@ body {
         width: 19rem;
     }
 
+    .numbergutHub1 {
+        width: 40%;
+    }
+
+    .footerContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
