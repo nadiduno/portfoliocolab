@@ -17,7 +17,6 @@ async function userData() {
             document.getElementById("followers").innerHTML = data["followers"]
             document.getElementById("following").innerHTML = data["following"]
             document.getElementById("htmlUrl").setAttribute('href', data["html_url"])
-            document.getElementById("menssage").innerHTML = "conta criada desde"
             document.getElementById("createdAt").innerHTML = data["created_at"]
         })
         .catch((error) => {
