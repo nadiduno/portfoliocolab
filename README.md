@@ -25,8 +25,8 @@ https://api.github.com/users/<nomeUsuario>
 
 
 # Deploy
-
-Em produção...
+Feito com ajuda da plataforma Vercel
+https://portfoliocolab.vercel.app/
 
 
 # Colaboradores
