@@ -11,7 +11,7 @@ https://api.github.com/users/<nomeUsuario>
 # Mobile
 <div>
   <img 
-    alt="Timer Pomodoro"
+    alt="Imagem que apresenta o protótipo do site, o qual é um mini portfólio do github nas cores laranja e roxo e fundo branco"
     src="https://github.com/nadiduno/portfoliocolab/blob/main/.github/ImgApp.png" 
     width="30%"
   >
